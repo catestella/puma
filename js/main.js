@@ -24,3 +24,25 @@ var shoesArray = new Array
 shoesArray.push(clyde1, clyde2, clyde3, clyde4, clyde5, clyde6, clyde7, clyde8, clyde9)
 
 // loop through products array
+for(var i = 0; i < shoesArray.length; i++) {
+	// create new elements for each product
+	var newItem = document.createElement("div")
+	var newDiv  = document.createElement("div")
+	var nameH1  = document.createElement("h1")
+	var sizeH4  = document.createElement("h4")
+	var btn     = document.createElement("button")
+	var image   = document.createElement("img")
+
+	// create text for new elements
+	var tName   = document.createTextNode(shoesArray[i].name)
+	var tSize   = document.createTextNode("Available size: " + shirtArray[i].size)
+	var tButton = document.createTextNode("Buy Now!")
+
+	// update source attributes
+	image.className = "img-responsive"
+	btn.className = "btn btn-primary btn-lg"
+	newItem.className = "col-sm-4"
+	newDiv.className = "tshirt shirtName" + [i] + " thumbnail"
+
+	// add text to elements
+}
