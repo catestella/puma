@@ -5,16 +5,34 @@
 	margin-left: 10px;
 }
 
+.collapse .nav li a {
+	font-family: 'Play', sans-serif;
+	font-size: 23px;
+	color: black;
+	margin-top: 5px;
+}
+
+.collapse .nav li a:hover {
+	color:red;
+}
+
 #bs-example-navbar-collapse-1 {
 	float: right;
 }
 
 /*About*/
+#about {
+
+}
+
 #about h1 {
 	text-align: center;
 	font-family: 'Play', sans-serif;
+	font-size: 65px;
 }
 
 #about p {
 	font-family: 'Play', sans-serif;
+	font-size: 20px;
+	text-align: center;
 }
