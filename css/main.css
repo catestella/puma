@@ -8,3 +8,13 @@
 #bs-example-navbar-collapse-1 {
 	float: right;
 }
+
+/*About*/
+#about h1 {
+	text-align: center;
+	font-family: 'Play', sans-serif;
+}
+
+#about p {
+	font-family: 'Play', sans-serif;
+}
