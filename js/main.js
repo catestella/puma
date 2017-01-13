@@ -39,10 +39,14 @@ for(var i = 0; i < shoesArray.length; i++) {
 	var tButton = document.createTextNode("Buy Now!")
 
 	// update source attributes
+	image.src = shirtArray[i].image
+
+	// update class attributes
 	image.className = "img-responsive"
 	btn.className = "btn btn-primary btn-lg"
 	newItem.className = "col-sm-4"
 	newDiv.className = "tshirt shirtName" + [i] + " thumbnail"
 
 	// add text to elements
+	nameH1.appendChild(tName)
 }
