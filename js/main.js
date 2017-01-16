@@ -35,11 +35,11 @@ for(var i = 0; i < shoesArray.length; i++) {
 
 	// create text for new elements
 	var tName   = document.createTextNode(shoesArray[i].name)
-	var tSize   = document.createTextNode("Available size: " + shirtArray[i].size)
+	var tSize   = document.createTextNode("Available size: " + shoesArray[i].size)
 	var tButton = document.createTextNode("Buy Now!")
 
 	// update source attributes
-	image.src = shirtArray[i].image
+	image.src = shoesArray[i].image
 
 	// update class attributes
 	image.className = "img-responsive"
@@ -49,4 +49,23 @@ for(var i = 0; i < shoesArray.length; i++) {
 
 	// add text to elements
 	nameH1.appendChild(tName)
+	sizeH4.appendChild(tSize)
+	// colorH4.appendChild(tColor)
+	// stockH4.appendChild(tStock)
+	btn.appendChild(tButton)
+
+	// add elements to new div
+	newDiv.appendChild(nameH1)
+	newDiv.appendChild(image)
+	newDiv.appendChild(sizeH4)
+	// newDiv.appendChild(colorH4)
+	// newDiv.appendChild(stockH4)
+	newDiv.appendChild(btn)
+
+	// add new div to new item div
+	newItem.appendChild(newDiv)
+
+	// add new item to the element with id="shirts"
+	document.getElementById("products").appendChild(newItem)
+
 }
