@@ -59,7 +59,6 @@ h4 {
 	font-family: 'Play', sans-serif;
 }
 
-.button {
-	margin: auto 0;
-	text-align: center;
+.btn {
+	margin: 10px 110px;
 }
