@@ -1264,7 +1264,8 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  /* font-size: 36px; */
+  font-size: 27px;
 }
 h2,
 .h2 {
@@ -1589,7 +1590,8 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    /* width: 750px; */
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -5006,6 +5008,7 @@ a.badge:focus {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
+  height: 430px;
   -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
