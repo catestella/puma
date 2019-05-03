@@ -1,5 +1,3 @@
-# 
-
 ### E-Commerce Business Website 
 
 #### Project building an e-commerce website using Puma Clyde sneakers using Bootstrap.
